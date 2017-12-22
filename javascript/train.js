@@ -18,17 +18,19 @@
 
 
 
+  
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCjQNDZigS7DQ_pVMQcEpZXJjPmSqVy3qU",
     authDomain: "train-scheduler-ed70f.firebaseapp.com",
     databaseURL: "https://train-scheduler-ed70f.firebaseio.com",
     projectId: "train-scheduler-ed70f",
-    storageBucket: "",
+    storageBucket: "train-scheduler-ed70f.appspot.com",
     messagingSenderId: "709957295315"
   };
   firebase.initializeApp(config);
-
+</script>
  // Create a variable to reference the database.
     var database = firebase.database();
 $( document ).ready(function() {
